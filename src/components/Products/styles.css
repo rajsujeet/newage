@@ -1,0 +1,49 @@
+.shop-home-bar-section{
+  padding: 20px 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title{
+  text-align: center;
+}
+
+.shop-home-bar-grid{
+  display: grid; 
+  grid: auto auto / auto auto auto; 
+  grid-gap: 10px; 
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-home-bar-card{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+}
+
+.shop-home-bar-card img {
+  height: 330px;
+}
+
+.image-res{
+  width: 100%;
+  height: auto;
+}
+
+.del-price{
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: -10px;
+}
+
+.price{
+  color: #1976d2;
+  font-size: 20px;
+  font-weight: bold;
+}

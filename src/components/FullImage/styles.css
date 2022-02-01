@@ -1,0 +1,78 @@
+.ice-bulbs-section{
+  padding: 10px 10px;
+  position: relative;
+}
+
+.App-logo {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.image-full-width{
+  width: 100%;
+}
+
+.ice-bulds-container{
+  position: absolute;
+  top: 15%;
+  bottom: unset;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ice-bulds-overlay{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ice-bulds-text{
+  animation: fadein 2s;
+  text-align: center;
+  color: #fff;  
+  width: 75%;
+}
+
+
+.lights-section{
+  padding: 20px 10px;
+  position: relative;
+}
+
+.lights-container{
+  position: absolute;
+  top: 30%;
+  bottom: unset;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.lights-overlay{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 15%;
+  width: 48%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.lights-text{
+  animation: fadein 2s;
+  color: #fff;  
+  width: 75%;
+  text-align: end;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
